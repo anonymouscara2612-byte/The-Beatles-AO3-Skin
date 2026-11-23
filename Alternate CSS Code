@@ -564,12 +564,12 @@ form dl {
 
 div.preface .module::after {
   content: "";
-  background-image: url("https://i.postimg.cc/B6PrXdVK/Divider.png");
+  background-image: url("https://i.postimg.cc/d1ZbLzxT/Divider.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  width: 35px;
+  width: 50px;
   height: 50px;
   margin: 3px auto 0;
 }
@@ -725,6 +725,14 @@ span.requested.offered {
 
 span.requested {
   color: #E8DED0;
+}
+
+#dashboard {
+  background: rgba(13, 13, 13, 0.7);
+  border: 3px solid transparent;
+  box-shadow: none;
+  color: #E8DED0;
+  border-radius: 8px;
 }
 
 #dashboard.own,
@@ -887,8 +895,8 @@ ul.tags li a.tag {
 .blurb .datetime {
   display: block;
   padding-bottom: 15px;
-  background: url("https://i.postimg.cc/d1ZbLzxT/Last-Updatte-Date.png") no-repeat center bottom;
-  background-size: 30px auto;
+  background: url("https://i.postimg.cc/B6PrXdVK/Last-Update-Date.png") no-repeat center bottom;
+  background-size: 20px auto;
 }
 
 ul.tags li.warnings:first-child:before {
